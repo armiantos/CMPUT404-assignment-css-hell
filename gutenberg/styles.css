@@ -4,6 +4,8 @@ html,
 body {
   margin: 0;
   font-family: "PT Serif", serif;
+  background-color: #f9f5e8;
+  color: #242323;
 }
 
 body > :last-child {
@@ -17,6 +19,8 @@ body > * {
 
 p {
   text-align: justify;
+  /* Add letter spacing to mimic pages written in old books (e.g. https://www.pinterest.ca/pin/378161699931289662/) */
+  letter-spacing: 0.05em;
 }
 
 h1,
@@ -53,4 +57,10 @@ h3 {
 a {
   text-decoration: none;
   color: inherit;
+
+  transition: color 0.5s;
+}
+
+a:hover {
+  color: #6a5f59;
 }
