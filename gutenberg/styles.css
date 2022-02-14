@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+html,
+body {
+  margin: 0;
+  font-family: "PT Serif", serif;
+}
+
+body > :last-child {
+  margin-bottom: 16em;
+}
+
+body > * {
+  max-width: 80ch;
+  margin: 0 auto;
+}
+
+p {
+  text-align: justify;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+  font-weight: normal;
+  font-family: "DM Serif Display", serif;
+}
+
+h1 {
+  padding-top: 2em;
+  font-size: 400%;
+}
+
+h2 {
+  padding-top: 1.5em;
+  font-size: 200%;
+}
+
+h3 {
+  padding-top: 1em;
+  font-size: 150%;
+}
+
+#table-of-contents {
+  display: flex;
+  justify-items: flex-start;
+}
