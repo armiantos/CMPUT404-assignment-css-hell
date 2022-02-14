@@ -49,3 +49,8 @@ h3 {
   display: flex;
   justify-items: flex-start;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
