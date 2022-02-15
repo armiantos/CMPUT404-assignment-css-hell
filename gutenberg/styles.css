@@ -3,13 +3,24 @@
 html,
 body {
   margin: 0;
+}
+
+html {
   font-family: "PT Serif", serif;
-  background-color: #f9f5e8;
   color: #242323;
+
+  /* Add letter spacing to mimic pages written in old books (e.g. https://www.pinterest.ca/pin/378161699931289662/) */
+  letter-spacing: 0.05em;
+}
+
+body {
+  background-image: url("img/paper-texture.png");
+  background-color: #d6c5a5;
+  background-blend-mode: overlay;
 }
 
 body > :last-child {
-  margin-bottom: 16em;
+  margin-bottom: 30vh;
 }
 
 body > * {
@@ -19,8 +30,6 @@ body > * {
 
 p {
   text-align: justify;
-  /* Add letter spacing to mimic pages written in old books (e.g. https://www.pinterest.ca/pin/378161699931289662/) */
-  letter-spacing: 0.05em;
 }
 
 h1,

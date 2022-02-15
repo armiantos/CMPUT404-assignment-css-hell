@@ -27,3 +27,7 @@ Code is licensed under the Apache 2.0 license.
 - Remove the table of content's inline styles and add a new `table-of-contents` id attribute
 - Add a Google font resource in `<head>`
 - Use local anchors instead of absolute URLs in the table of contents
+
+# Extra notes
+
+- Paper like background image modified from [Pixabay](https://pixabay.com/photos/paper-texture-scrapbooking-753508/) under the [Pixabay License](https://pixabay.com/service/license/)
