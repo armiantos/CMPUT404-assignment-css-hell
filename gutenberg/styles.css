@@ -19,6 +19,7 @@ body {
   background-blend-mode: overlay;
   max-width: 80ch;
   margin: 0 auto;
+  padding-top: 4em;
 }
 
 body > :last-child {
@@ -41,17 +42,17 @@ h6 {
 }
 
 h1 {
-  padding-top: 2em;
+  margin-top: 1em;
   font-size: 400%;
 }
 
 h2 {
-  padding-top: 1.5em;
+  margin-top: 0.75em;
   font-size: 200%;
 }
 
 h3 {
-  padding-top: 1em;
+  margin-top: 0.5em;
   font-size: 150%;
 }
 
