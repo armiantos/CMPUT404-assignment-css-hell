@@ -17,15 +17,12 @@ body {
   background-image: url("img/paper-texture.png");
   background-color: #d6c5a5;
   background-blend-mode: overlay;
+  max-width: 80ch;
+  margin: 0 auto;
 }
 
 body > :last-child {
   margin-bottom: 30vh;
-}
-
-body > * {
-  max-width: 80ch;
-  margin: 0 auto;
 }
 
 p {
