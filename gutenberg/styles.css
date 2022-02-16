@@ -56,6 +56,19 @@ h3 {
   font-size: 150%;
 }
 
+.fig {
+  /* Center image container */
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  /* Round corners of images */
+  border-radius: 8px;
+  /* Images are displayed in a block so only add vertical margin */
+  margin: 1em 0;
+}
+
 #table-of-contents {
   display: flex;
   justify-items: flex-start;
