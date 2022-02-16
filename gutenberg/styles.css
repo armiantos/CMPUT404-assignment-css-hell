@@ -8,7 +8,6 @@ body {
 html {
   font-family: "PT Serif", serif;
   color: #242323;
-
   /* Add letter spacing to mimic pages written in old books (e.g. https://www.pinterest.ca/pin/378161699931289662/) */
   letter-spacing: 0.05em;
 }
@@ -66,6 +65,7 @@ img {
 }
 
 #table-of-contents {
+  /* Align left but generalizes if page language requires RTL */
   display: flex;
   justify-items: flex-start;
 }
@@ -74,6 +74,7 @@ a {
   text-decoration: none;
   color: inherit;
 
+  /* Animate color on hover */
   transition: color 0.5s;
 }
 
