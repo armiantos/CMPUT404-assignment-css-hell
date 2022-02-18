@@ -10,6 +10,9 @@ html {
   color: #242323;
   /* Add letter spacing to mimic pages written in old books (e.g. https://www.pinterest.ca/pin/378161699931289662/) */
   letter-spacing: 0.05em;
+
+  /* Add vignette to edges */
+  box-shadow: inset 0 0 40px #00000030;
 }
 
 body {
@@ -18,7 +21,7 @@ body {
   background-blend-mode: overlay;
   max-width: 80ch;
   margin: 0 auto 10vh auto;
-  padding-top: 4em;
+  padding: 4em 1em 1em 1em;
 }
 
 p {
