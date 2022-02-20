@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+html,
+body {
+  margin: 0;
+  width: 100%;
+}
+
+body {
+  background-color: #323232;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 80ch;
+  justify-content: center;
+}
+
+header {
+  font-size: 500%;
+  min-height: 30vh;
+  display: grid;
+  place-items: center;
+}
+
+nav > ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.sidebar-container {
+  display: flex;
+  flex-direction: row;
+}
+
+#profile-photo {
+  max-width: 400px;
+}
+
+ol {
+  list-style-type: none;
+}
+
+section:not(:last-of-type) {
+  padding-bottom: 1em;
+}
