@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-  max-width: 80ch;
+  max-width: 100ch;
   justify-content: center;
 }
 
@@ -47,6 +47,13 @@ nav a:hover {
 .sidebar-container {
   display: flex;
   flex-direction: row;
+}
+
+.sidebar {
+  background-color: #444444;
+  border-radius: 8px;
+  padding: 1em;
+  height: fit-content;
 }
 
 #profile-photo {
