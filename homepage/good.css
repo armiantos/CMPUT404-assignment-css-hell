@@ -30,6 +30,30 @@ header {
   place-items: center;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 200%;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 150%;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 125%;
+  margin-bottom: 10px;
+}
+
 nav {
   background-color: #444444;
   color: #fff;
@@ -74,10 +98,6 @@ main {
   border-radius: 50%;
 }
 
-ol {
-  list-style-type: none;
-}
-
 section:not(:last-of-type) {
   padding-bottom: 1em;
 }
@@ -85,4 +105,27 @@ section:not(:last-of-type) {
 .logo {
   margin: 2em;
   max-height: 20vh;
+}
+
+#my-professional-history ol {
+  list-style-type: none;
+  padding-inline-start: 0;
+  margin: 0;
+}
+
+#my-professional-history h3 {
+  display: inline-block;
+}
+
+#my-professional-history .location {
+  display: inline-block;
+  font-weight: 300;
+}
+
+#my-professional-history .position {
+  text-transform: uppercase;
+}
+
+#my-professional-history .summary {
+  margin: 10px 0;
 }
