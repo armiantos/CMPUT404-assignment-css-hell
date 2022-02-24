@@ -27,3 +27,4 @@ Code is licensed under the Apache 2.0 license.
 # Extra notes
 
 - Paper like background image modified from [Pixabay](https://pixabay.com/photos/paper-texture-scrapbooking-753508/) under the [Pixabay License](https://pixabay.com/service/license/)
+- Stars background obtained from [1-background.com](https://1-background.com/stars_1.htm)
