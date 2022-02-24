@@ -30,30 +30,6 @@ header {
   place-items: center;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
-
-h1 {
-  font-size: 200%;
-  margin-bottom: 20px;
-}
-
-h2 {
-  font-size: 150%;
-  margin-bottom: 20px;
-}
-
-h3 {
-  font-size: 125%;
-  margin-bottom: 10px;
-}
-
 nav {
   background-color: #444444;
   color: #fff;
@@ -124,8 +100,5 @@ section:not(:last-of-type) {
 
 #my-professional-history .position {
   text-transform: uppercase;
-}
-
-#my-professional-history .summary {
-  margin: 10px 0;
+  margin-bottom: 10px;
 }
