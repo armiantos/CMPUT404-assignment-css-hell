@@ -59,4 +59,5 @@ main {
 .sidebar {
   height: fit-content;
   max-width: 40ch;
+  text-align: right;
 }
